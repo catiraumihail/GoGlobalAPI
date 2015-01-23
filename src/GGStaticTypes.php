@@ -12,27 +12,27 @@ class GGStaticTypes{
 	*	RequestType
 	*/
 	public static RequestType = [
-		'1'		=> 'HOTEL_SEARCH_REQUEST', 					// Availability Search
-		'11'	=> 'HOTEL_SEARCH_REQUEST', 					// Availability Search /W Geo
+		'1'	=> 'HOTEL_SEARCH_REQUEST', 			// Availability Search
+		'11'	=> 'HOTEL_SEARCH_REQUEST', 			// Availability Search /W Geo
 		
-		'6'		=> 'HOTEL_INFO_REQUEST', 					// Hotel Information
-		'61'	=> 'HOTEL_INFO_REQUEST', 					// Hotel Information /W Geo
+		'6'	=> 'HOTEL_INFO_REQUEST', 			// Hotel Information
+		'61'	=> 'HOTEL_INFO_REQUEST', 			// Hotel Information /W Geo
 		
-		'2'		=> 'BOOKING_INSERT_REQUEST', 				// Booking Insert
-		'3'		=> 'BOOKING_CANCEL_REQUEST', 				// Booking Cancellation
-		'4'		=> 'BOOKING_SEARCH_REQUEST', 				// Booking Search
-		'10'	=> 'ADV_BOOKING_SEARCH_REQUEST', 			// Booking Search Adv 
-		'5'		=> 'BOOKING_STATUS_REQUEST', 				// Booking Status
-		'8'		=> 'VOUCHER_DETAILS_REQUEST', 				// Voucher Details
-		'9'		=> 'BOOKING_VALUATION_REQUEST', 			// Booking Valuation
-		'12'	=> 'PIGGIBANK_STATUS_REQUEST', 				// PiggyBank Details
-		'13'	=> 'BOOKING_PAYMENT_REQUEST', 				// Booking Payment
-		'14'	=> 'PRICE_BREAKDOWN_REQUEST', 				// Price Breakdown
+		'2'	=> 'BOOKING_INSERT_REQUEST', 			// Booking Insert
+		'3'	=> 'BOOKING_CANCEL_REQUEST', 			// Booking Cancellation
+		'4'	=> 'BOOKING_SEARCH_REQUEST', 			// Booking Search
+		'10'	=> 'ADV_BOOKING_SEARCH_REQUEST', 		// Booking Search Adv 
+		'5'	=> 'BOOKING_STATUS_REQUEST', 			// Booking Status
+		'8'	=> 'VOUCHER_DETAILS_REQUEST', 			// Voucher Details
+		'9'	=> 'BOOKING_VALUATION_REQUEST', 		// Booking Valuation
+		'12'	=> 'PIGGIBANK_STATUS_REQUEST', 			// PiggyBank Details
+		'13'	=> 'BOOKING_PAYMENT_REQUEST', 			// Booking Payment
+		'14'	=> 'PRICE_BREAKDOWN_REQUEST', 			// Price Breakdown
 		'15'	=> 'BOOKING_INFO_FOR_AMENDMENT_REQUEST', 	// Amendment Options
-		'16'	=> 'BOOKING_AMENDMENT_REQUEST', 			// Amendment Request
+		'16'	=> 'BOOKING_AMENDMENT_REQUEST', 		// Amendment Request
 		
-		'17'	=> 'TRANSFER_SEARCH_REQUEST', 				// Transfer Search
-		'19'	=> 'TB_INSERT_REQUEST' 						// Transfer Booking
+		'17'	=> 'TRANSFER_SEARCH_REQUEST', 			// Transfer Search
+		'19'	=> 'TB_INSERT_REQUEST' 				// Transfer Booking
 	];	
 	
 	/**
@@ -64,15 +64,15 @@ class GGStaticTypes{
 	* Star Codes
 	*/	
 	public static StarCodes = [
-		'1'		=> '1 star',
-		'2'		=> '1.5 stars',
-		'3'		=> '2 stars',
-		'4'		=> '2.5 stars',
-		'5'		=> '3 stars',
-		'6'		=> '3.5 stars',
-		'7'		=> '4 stars',
-		'8'		=> '4.5 star',
-		'9'		=> '5 stars',
+		'1'	=> '1 star',
+		'2'	=> '1.5 stars',
+		'3'	=> '2 stars',
+		'4'	=> '2.5 stars',
+		'5'	=> '3 stars',
+		'6'	=> '3.5 stars',
+		'7'	=> '4 stars',
+		'8'	=> '4.5 star',
+		'9'	=> '5 stars',
 		'10'	=> '5.5 stars',
 		'11'	=> '6 stars'
 	];	
@@ -92,9 +92,9 @@ class GGStaticTypes{
 	*/	
 	public static BookingStatuses = [
 		'RQ'	=> 'Requested',
-		'C'		=> 'Confirmed',
+		'C'	=> 'Confirmed',
 		'RX'	=> 'Req. Cancellation',
-		'X'		=> 'Cancelled',
+		'X'	=> 'Cancelled',
 		'RJ'	=> 'Rejected',
 		'VCH'	=> 'Voucher Issued',
 		'VRQ'	=> 'Voucher Req.'
@@ -182,10 +182,10 @@ class GGStaticTypes{
 	* 	Messages
 	*/	
 	public static Messages = [
-		'1'		=> 'No Hotels Were Found Matching Searched Criteria!',
-		'2'		=> 'The Cancellation Date is After The Cancellation Deadline. Please Contact Your Handling Office.',
-		'3'		=> 'There Was No Booking(s) Found In The System Corresponding To The Given Booking Code(s)!',
-		'4'		=> 'No bookings were found'
+		'1'	=> 'No Hotels Were Found Matching Searched Criteria!',
+		'2'	=> 'The Cancellation Date is After The Cancellation Deadline. Please Contact Your Handling Office.',
+		'3'	=> 'There Was No Booking(s) Found In The System Corresponding To The Given Booking Code(s)!',
+		'4'	=> 'No bookings were found'
 	];
 
 	
