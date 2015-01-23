@@ -5,6 +5,9 @@
 namespace GoGlobalApi\lib;
 
 class GGHelper{
+	/**
+	 * Wrapp xml tag
+	 */
     public static function WrapTag($tag, $value, $attributes=array()) {
         $attr = "";
         foreach($attributes as $k=>$v) $attr.= sprintf(" %s=\"%s\"",$k,$v);
