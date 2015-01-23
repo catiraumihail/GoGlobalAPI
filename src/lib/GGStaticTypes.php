@@ -99,8 +99,6 @@ class GGStaticTypes{
 		'VCH'	=> 'Voucher Issued',
 		'VRQ'	=> 'Voucher Req.'
 	];
-	
-
 
 	
 	/**
